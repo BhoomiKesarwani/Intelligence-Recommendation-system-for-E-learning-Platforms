@@ -1,0 +1,4 @@
+cosine_similarity.pkl
+user_similarity.pkl
+__pycache__/
+.ipynb_checkpoints/
