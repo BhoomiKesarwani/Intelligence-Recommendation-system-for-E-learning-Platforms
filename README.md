@@ -41,12 +41,4 @@ cd intelligence-recommendation-system-for-e-learning-platforms
 pip install -r requirements.txt
 
 streamlit run streamlit/app.py
-```
 
-## Demo
-
-Open the Streamlit app in your browser after running the above command.
-
-## Author
-
-**Krishna Vansh**
