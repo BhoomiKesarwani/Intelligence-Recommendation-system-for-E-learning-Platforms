@@ -1,12 +1,16 @@
 # collaborative.py
-
+from pathlib import Path
 from unittest import result
 
 from config import courses, user_similarity
 import pandas as pd
 
 # Load interactions dataset
-interactions = pd.read_csv("research_interactions.csv")
+# interactions = pd.read_csv("research_interactions.csv")
+
+
+BASE_DIR = Path(__file__).resolve().parent
+interactions = pd.read_csv(BASE_DIR / "research_interactions.csv")
 
 # Convert similarity matrix to DataFrame if needed
 if not isinstance(user_similarity, pd.DataFrame):
