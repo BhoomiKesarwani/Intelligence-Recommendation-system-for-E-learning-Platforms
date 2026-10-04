@@ -1,3 +1,5 @@
+#-m streamlit run app.py
+
 import streamlit as st
 import pandas as pd
 from content_based import recommend_courses
@@ -301,5 +303,3 @@ Developed using:
 
 • Pandas
 """)
-
-    #py -m streamlit run app.py
