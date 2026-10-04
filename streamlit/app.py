@@ -1,11 +1,12 @@
 #python -m streamlit run app.py
-
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 from content_based import recommend_courses
 from collaborative import collaborative_recommend
 
 
+BASE_DIR = Path(__file__).resolve().parent
 
 # -----------------------------
 # Page Configuration
@@ -19,10 +20,12 @@ st.set_page_config(
 # -----------------------------
 # Load Dataset
 # -----------------------------
-courses = pd.read_csv("clean_courses.csv")
-users = pd.read_csv("research_users.csv")
-interactions = pd.read_csv("research_interactions.csv")
-
+# courses = pd.read_csv("clean_courses.csv")
+# users = pd.read_csv("research_users.csv")
+# interactions = pd.read_csv("research_interactions.csv")
+courses = pd.read_csv(BASE_DIR / "clean_courses.csv")
+users = pd.read_csv(BASE_DIR / "research_users.csv")
+interactions = pd.read_csv(BASE_DIR / "research_interactions.csv")
 
 # -----------------------------
 # Sidebar
