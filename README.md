@@ -1,3 +1,10 @@
+
+# Intelligent Recommendation System for E-Learning Platforms
+
+🚀 **Live Demo:** [Open the deployed application]([https://intelligence-recommendation-system-for-e-learning-platforms-ad.streamlit.app/](https://intelligence-recommendation-system-for-e-learning-platforms-ad.streamlit.app/)
+
+An AI-powered e-learning recommendation system that helps users discover relevant courses.
+
 # Intelligence Recommendation System for E-Learning Platforms
 
 An AI-powered course recommendation system built using **Python, Streamlit, Scikit-learn, and Pandas**. The application recommends relevant e-learning courses using both **Content-Based Filtering** and **Collaborative Filtering** techniques.
