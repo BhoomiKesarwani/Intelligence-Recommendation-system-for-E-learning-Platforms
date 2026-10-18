@@ -9,9 +9,6 @@ An AI-powered course recommendation system built using **Python, Streamlit, Scik
 An AI-powered e-learning recommendation system that helps users discover relevant courses.
 
 
-
-An AI-powered course recommendation system built using **Python, Streamlit, Scikit-learn, and Pandas**. The application recommends relevant e-learning courses using both **Content-Based Filtering** and **Collaborative Filtering** techniques.
-
 ## Features
 - Content-Based Course Recommendation
 - Collaborative Filtering Recommendation
